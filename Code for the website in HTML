@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bridging the Gender Gap</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <nav class="container">
+            <div class="logo">
+                <a href="#">
+                    <img src="grp.jpg" alt="Bridging the Gap Logo" style="height: 40px;">
+                    <span>Bridging the Gap</span>
+                </a>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#initiatives">Initiatives</a></li>
+                <li><a href="#resources">Resources</a></li>
+                <li><a href="#stories">Stories</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><a href="#donate" class="button primary">Donate</a></li>
+            </ul>
+            <div class="hamburger">
+                <div class="bar"></div>
+                <div class="bar"></div>
+                <div class="bar"></div>
+            </div>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h1>Empowering Equality, Building a Better Future</h1>
+                <p class="lead">Join us in our mission to bridge the gender gap and create a more equitable world for everyone.</p>
+                <div class="hero-buttons">
+                    <a href="#initiatives" class="button primary">Explore Initiatives</a>
+                    <a href="#learn-more" class="button secondary">Learn More</a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <img src="people.jpg" alt="Diverse group of people working together">
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="section">
+        <div class="container">
+            <div class="section-title">
+                <h2>About the Gender Gap</h2>
+                <p>Understanding the challenges and the importance of equality.</p>
+            </div>
+            <div class="about-content">
+                <div class="about-image">
+                    <img src="assets/about-image.jpg" alt="Infographic showing gender equality statistics">
+                </div>
+                <div class="about-text">
+                    <p>The gender gap represents the disparities between men and women in various aspects of life, including economic participation, education, health, and political empowerment. Addressing this gap is crucial for social justice, economic growth, and overall societal well-being.</p>
+                    <p>Our organization is dedicated to raising awareness, implementing impactful initiatives, and providing resources to help bridge this gap. We believe in a future where everyone has equal opportunities to thrive, regardless of their gender.</p>
+                    <ul>
+                        <li>Promoting equal access to education and employment.</li>
+                        <li>Advocating for fair policies and legislation.</li>
+                        <li>Empowering women and girls through mentorship and skill development.</li>
+                        <li>Fostering inclusive and respectful environments.</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="initiatives" class="section bg-light">
+        <div class="container">
+            <div class="section-title">
+                <h2>Our Key Initiatives</h2>
+                <p>Discover the programs and projects driving change.</p>
+            </div>
+            <div class="initiatives-grid">
+                <div class="initiative-card">
+                    <img src="Mentorship.jpg" alt="Mentorship program">
+                    <h3>Mentorship Programs</h3>
+                    <p>Connecting aspiring women with experienced mentors for guidance and support.</p>
+                    <a href="#" class="button tertiary">Learn More</a>
+                </div>
+                <div class="initiative-card">
+                    <img src="10 Top Life Skills to Learn.jpg" alt="Skills development workshop">
+                    <h3>Skills Development Workshops</h3>
+                    <p>Providing training and resources to enhance women's professional skills.</p>
+                    <a href="#" class="button tertiary">Learn More</a>
+                </div>
+                <div class="initiative-card">
+                    <img src="Mid-Hudson Library System.jpg" alt="Advocacy campaign">
+                    <h3>Advocacy and Awareness Campaigns</h3>
+                    <p>Raising public awareness and advocating for policies that promote gender equality.</p>
+                    <a href="#" class="button tertiary">Learn More</a>
+                </div>
+                <div class="initiative-card">
+                    <img src="edu.jpg" alt="Educational scholarships">
+                    <h3>Educational Scholarships</h3>
+                    <p>Supporting girls and women in pursuing their academic dreams.</p>
+                    <a href="#" class="button tertiary">Learn More</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="resources" class="section">
+        <div class="container">
+            <div class="section-title">
+                <h2>Valuable Resources</h2>
+                <p>Explore articles, reports, and organizations working towards gender equality.</p>
+            </div>
+            <div class="resources-list">
+                <ul>
+                    <li><a href="#" target="_blank">United Nations Women</a></li>
+                    <li><a href="#" target="_blank">World Economic Forum - Global Gender Gap Report</a></li>
+                    <li><a href="#" target="_blank">[Your Local Gender Equality Organization]</a></li>
+                    <li><a href="#" target="_blank">[Relevant Articles or Blogs]</a></li>
+                    </ul>
+            </div>
+        </div>
+    </section>
+
+    <section id="stories" class="section bg-light">
+        <div class="container">
+            <div class="section-title">
+                <h2>Inspiring Stories</h2>
+                <p>Read about the impact of our work and the journeys of individuals.</p>
+            </div>
+            <div class="stories-carousel">
+                <div class="story-card">
+                    <img src="assets/story-1.jpg" alt="Testimonial image">
+                    <blockquote>"The mentorship program helped me gain the confidence and skills I needed to advance in my career." - Sarah M.</blockquote>
+                </div>
+                <div class="story-card">
+                    <img src="assets/story-2.jpg" alt="Testimonial image">
+                    <blockquote>"Thanks to the scholarship, I was able to complete my education and pursue my passion." - Emily L.</blockquote>
+                </div>
+                <div class="story-card">
+                    <img src="assets/story-3.jpg" alt="Testimonial image">
+                    <blockquote>"Being part of the advocacy campaign made me feel like my voice could contribute to meaningful change." - Jessica P.</blockquote>
+                </div>
+                </div>
+        </div>
+    </section>
+
+    <section id="contact" class="section">
+        <div class="container">
+            <div class="section-title">
+                <h2>Get Involved</h2>
+                <p>Connect with us and be part of the movement.</p>
+            </div>
+            <div class="contact-form">
+                <form action="#" method="POST">
+                    <div class="form-group">
+                        <label for="name">Name</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea id="message" name="message" rows="5" required></textarea>
+                    </div>
+                    <button type="submit" class="button primary">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <section id="donate" class="cta-section bg-primary">
+        <div class="container">
+            <div class="cta-content">
+                <h2>Support Our Mission</h2>
+                <p>Your contribution can make a real difference in bridging the gender gap.</p>
+                <a href="#" class="button secondary">Donate Now</a>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <p>&copy; 2025 Bridging the Gender Gap. All rights reserved.</p>
+                <ul class="social-links">
+                    <li><a href="#" target="_blank"><img src="assets/facebook.png" alt="Facebook"></a></li>
+                    <li><a href="#" target="_blank"><img src="assets/twitter.png" alt="Twitter"></a></li>
+                    <li><a href="#" target="_blank"><img src="assets/linkedin.png" alt="LinkedIn"></a></li>
+                    <li><a href="#" target="_blank"><img src="assets/instagram.png" alt="Instagram"></a></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
