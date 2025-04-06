@@ -1,0 +1,46 @@
+document.addEventListener('DOMContentLoaded', function() {
+    const hamburger = document.querySelector('.hamburger');
+    const navLinks = document.querySelector('.nav-links');
+    const navLinksList = document.querySelectorAll('.nav-links li a');
+
+    hamburger.addEventListener('click', () => {
+        navLinks.classList.toggle('active');
+        hamburger.classList.toggle('open');
+    });
+
+    navLinksList.forEach(link => {
+        link.addEventListener('click', () => {
+            navLinks.classList.remove('active');
+            hamburger.classList.remove('open');
+        });
+    });
+
+    // Smooth scrolling for navigation links
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener('click', function (e) {
+            e.preventDefault();
+
+            document.querySelector(this.getAttribute('href')).scrollIntoView({
+                behavior: 'smooth'
+            });
+        });
+    });
+
+    // Basic carousel functionality for stories (optional - you might want a more robust library)
+    const storiesCarousel = document.querySelector('.stories-carousel');
+    if (storiesCarousel) {
+        let scrollAmount = 0;
+        const scrollStep = 300; // Adjust as needed
+
+        setInterval(() => {
+            scrollAmount += scrollStep;
+            if (scrollAmount >= storiesCarousel.scrollWidth - storiesCarousel.clientWidth) {
+                scrollAmount = 0;
+            }
+            storiesCarousel.scrollTo({
+                left: scrollAmount,
+                behavior: 'smooth'
+            });
+        }, 5000); // Change slide every 5 seconds
+    }
+});
